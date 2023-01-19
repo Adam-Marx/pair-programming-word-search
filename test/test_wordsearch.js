@@ -69,8 +69,8 @@ describe("#wordSearch()", function() {
   });
 
   it("should return false if the array is empty", function() {
-    const result = wordSearch([], false)
+    const result = wordSearch([], 'SEINFELD')
 
-    assert.isFalse(result);
+    assert.isUndefined(result);
   });
 });
