@@ -67,4 +67,10 @@ describe("#wordSearch()", function() {
 
     assert.isFalse(result);
   });
+
+  it("should return false if the array is empty", function() {
+    const result = wordSearch([], false)
+
+    assert.isFalse(result);
+  });
 });
