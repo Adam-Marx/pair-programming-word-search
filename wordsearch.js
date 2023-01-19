@@ -1,7 +1,7 @@
 const wordSearch = (letters, word) => {
 
   if (letters.length < 1) {
-    return false;
+    return undefined;
   }
 
   let wordIsThere = false;
